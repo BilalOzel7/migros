@@ -1,0 +1,434 @@
+#sol{
+    position: absolute;
+    width: 740px;
+    height: 720px;
+    left: 0px;
+    top:0px;
+      
+    background: #077777;
+}
+
+.img{
+    width: 740px;
+    height: 720px;
+    left: 0px;
+    top:0px;
+}
+#sag{
+    position: absolute;
+    width: 780px;
+    height: 720px;
+    left: 740px;
+    right:0px;
+    top:0px;
+    
+    background: #F9FAFB;
+}
+
+#hosgeldiniz{
+    position: absolute;
+    width: 394px;
+    height: 76px;
+    left: 92px;
+    top: 240px;
+    
+    /* Heading/Heading 5 */
+    
+    font-family:Arial;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    /* or 119% */
+    
+    display: flex;
+    align-items: center;
+    
+    /* YemekPanel/Text/2 */
+    
+    color: #FFFFFF;
+    }
+    
+    #migros{
+    position: absolute;
+    width: 64.71px;
+    height: 12.84px;
+    left: 40.12px;
+    top: 40px;
+    font-family:Helvetica;
+    color:#FF7F00;
+    font-size:15px;
+    font-weight: bold;
+    
+    
+    }
+    
+    #yemek{
+    position: absolute;
+    width: 95,29px;
+    height: 30px;
+    left: 40px;
+    top: 30px;
+    font-family:Arial;
+    color:#FFFFFF;
+    font-size:26px;
+    font-weight: 1000;
+    
+    /* YemekPanel/Text/2 */
+    
+    
+    }
+
+    .giris{
+       position:absolute;
+    width: 120px;
+    height: 30px;
+    top:100px;
+    left:144px;
+    font-family:Arial;
+    color:#343B4A;
+    font-size:26px;
+    line-height: 31px;
+    font-weight: 600;
+    }
+    
+    .kayit{
+        position: absolute;
+        width: 450px;
+        height: 3px;
+        left: 144px;
+        right:144px;
+        top: 140px;
+        font-family:Arial;
+        color:#8c94A4;
+        font-size:18px;
+        line-height: 31px;
+        font-weight:normal;
+    }
+
+    #Destek{
+        position: static;
+        width: 396px;
+        height: 56px;
+        color: #8C94A4;
+        
+        
+        font-size: 16px;
+        line-height: 28px;
+        font-family:Arial;
+        color:#8c94A4;
+        }
+
+    .form-signin {
+        position: absolute;
+        width: 652px;
+        margin-top:15px;
+        left:144px;
+        right:198px;
+        margin:auto;
+      }
+      
+      .form-signin .checkbox {
+        font-weight: 200;
+      }
+      
+      .form-signin .form-floating:focus-within {
+        z-index: 2;
+      }
+      
+      .form-signin input[type="email"] {
+        margin-bottom: -1px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 12px;
+        background: #FFFFFF;
+        position: static;
+        width: 500px;
+        left:0px;
+        height: 12px;
+        border: 1px solid #B1B7C2;
+        border-radius: 8px;
+      }
+      
+      .form-signin .goster {
+        margin-bottom: 10px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px;
+        background: #FFFFFF;
+        position: static;
+        height: 12px;
+        left: 0px;
+        top: 32px;
+        border: 1px solid #B1B7C2;
+        border-radius: 8px;
+        margin-top:3px;
+      }
+
+      .form-signin input[type="email"]:focus{
+        outline: none !important;
+        border: 2px solid #077777;
+      } 
+
+      .form-signin input[type="password"]:focus{
+        outline: none !important;
+        border: 2px solid #077777;
+      }
+      
+      .form-signin input[type="email"].ng-touched.ng-invalid {
+        border: 1px solid red;
+        background-color:rgb(240, 195, 195)
+      }
+      .form-signin .goster.ng-touched.ng-invalid {
+        border: 1px solid red;
+        background-color:rgb(240, 195, 195)
+      }
+
+      .error-message {
+        color: red;
+      }
+
+      #floatingInput{
+        width: 350px;
+      }
+      
+      #floatingPassword{
+        width: 350px;
+      } 
+
+      .text-danger{
+        color:red;
+      }
+
+      .button{
+        position: static;
+      width: 375px;
+      height: 45px;
+      background: #077777;
+      border-radius: 15px;
+      font-size: 16px;
+      color: #FFFFFF;
+      font-family:Arial;
+      margin-bottom: 10px;
+      }
+
+      .input-group{
+        display:flex;
+        justify-content: left;
+    align-items: center;
+    flex-direction: row;
+      position: static;
+    width: 396px;
+    height: 56px;
+    font-size: 16px;
+    line-height: 28px;
+    font-family:Arial;
+    
+    }
+
+    input[type="checkbox"]{
+      width: 15px;
+      height: 15px;
+      border: 1px dashed #C2C7CF;
+      border-radius: 5px;
+      background: #F4F4F6;
+      display:inline-block;
+       
+        
+        
+      }
+
+      .captcha {
+        background-color:#f9f9f9;
+        border:2px solid #d3d3d3;
+        border-radius:5px;
+        color:#131212;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        position: static;
+        width: 290px;
+        height:60px;
+        margin-bottom:10px;
+        margin-top:10px;
+        
+    }
+    
+    @media screen and (max-width: 200px) {
+        .captcha {
+            flex-direction:column;
+        }
+        .text {
+            margin:.5em!important;
+            text-align:center;
+        }
+        .logo {
+            align-self: center!important;
+        }
+        .spinner {
+            margin:2em .5em .5em .5em!important;
+        }
+    }
+    
+    .text {
+        font-size:14px;
+        font-weight:100;
+        margin-right:20px;
+        font-family: Arial;
+    }
+    .spinner {
+        position:relative;
+        width:5px;
+        height:5px;
+        display:flex;
+        margin:3em 1em;
+        align-items:center;
+        justify-content:center;
+    }
+    #cek { position: absolute; opacity: 0; z-index: 0; }
+    #cek +.checkmark {
+        display:inline-block;
+        width:15px;
+        height:15px;
+        background-color:#fcfcfc;
+        border:2px solid #c3c3c3;
+        border-radius:3px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        cursor: pointer;
+    }
+    input[type="checkbox"]+.checkmark span {
+        content:'';
+        position:relative;/*
+        position:absolute;
+        border-bottom:3px solid;
+        border-right:3px solid;
+        border-color:#029f56;*/
+        margin-top:-3px;
+        transform:rotate(45deg);
+        width:20px;
+        height:1.2em;
+        opacity:0;
+    }
+    input[type="checkbox"]+.checkmark>span:after {
+        content:'';
+        position:absolute;
+        display:block;
+        height:3px;
+        bottom:0;left:0;
+        background-color:#029f56;
+    }
+    input[type="checkbox"]+.checkmark>span:before {
+        content:'';
+        position:absolute;
+        display:block;
+        width:3px;
+        bottom:0;right:0;
+        background-color:#029f56;
+    }
+    input[type="checkbox"]:checked+.checkmark { 
+        animation:2s spin forwards;
+    }
+    input[type="checkbox"]:checked+.checkmark>span { 
+        animation:1s fadein 1.9s forwards;
+    }
+    input[type="checkbox"]:checked+.checkmark>span:after {animation:.3s bottomslide 2s forwards;}
+    input[type="checkbox"]:checked+.checkmark>span:before {animation:.5s rightslide 2.2s forwards;}
+    @keyframes fadein {
+        0% {opacity:0;}
+        100% {opacity:1;}
+    }
+    @keyframes bottomslide {
+        0% {width:0;}
+        100% {width:100%;}
+    }
+    @keyframes rightslide {
+        0% {height:0;}
+        100% {height:100%;}
+    }
+    .logo {
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        height:50px;
+        align-self:flex-end;
+        margin-left:0px;
+    }
+    .logo img {
+      margin-top:0px;
+        height:25px;
+        width:30px;
+      margin-left:60px;
+      margin-right: 8px;
+    }
+    .logo p {
+        color:#9d9ba7;
+        margin:0;
+        font-size:9px;
+        font-weight:900;
+        margin-left:60px;
+      margin-right: 8px;
+    }
+    .logo small {
+        color:#9d9ba7;
+        
+        margin:0px;
+        font-size:8px;
+      margin-left:50px;
+      
+    }
+    @keyframes spin {
+        10% {
+            width:0;
+            height:0;
+            border-width:6px;
+        }
+        30% {
+            width:0;
+            height:0;
+            border-radius:50%;
+            border-width:1em;
+            transform: rotate(0deg);
+            border-color:rgb(199,218,245);
+        }
+        50% {
+            width:2em;
+            height:2em;
+            border-radius:50%;
+            border-width:4px;
+            border-color:rgb(199,218,245);
+            border-right-color:rgb(20, 44, 78);
+        }
+        70% {
+            border-width:4px;
+            border-color:rgb(199,218,245);
+            border-right-color:rgb(17, 35, 59);
+        }
+        90% {
+            border-width:4px;
+        }
+        100% {
+            width:2em;
+            height:2em;
+            border-radius:50%;
+            transform: rotate(720deg);
+            border-color:transparent;
+        }
+    }
+    ::selection {
+        background-color:transparent;
+        color:teal;
+    }
+    ::-moz-selection {
+        background-color:transparent;
+        color:teal;
+    }
+    

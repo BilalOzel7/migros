@@ -1,0 +1,122 @@
+<div>
+    <div class="col-md-6" id="sol">
+        <!-- <p id="migros">MİGROS</p>
+        <p id="yemek">yemek</p>
+        <p id="hosgeldiniz">Migros Restoran Panel'e Hoş Geldiniz</p> -->
+        <img class="img" src="/assets/images/migros.jpg">
+      </div>
+      <div class="col-md-6" id="sag">
+          <div class="d-flex justify-content-center">
+        <p class="giris">Giriş Yap</p>
+        <p class="kayit">
+          Sisteme kayıtlı e-posta adresinizle giriş yapabilirsiniz.
+        </p>
+        <form [formGroup]="loginForm" class="form-signin" style="top:200px;left:144px;">
+            <div class="form-group" >
+              <label
+                class="label"
+                style="color: #343b4a; font-size: 14px; font-family: Arial"
+                for="floatingInput"
+                >E-posta Adresi</label
+              >
+              <input
+                formControlName="email"
+                type="email"
+                class="form-control"
+                id="floatingInput"
+                placeholder=""
+               
+              />
+              <div>
+              <ng-container class="error-message">
+                <div class="error-message" for="floatingInput" *ngIf="loginForm.get('email').invalid && (loginForm.get('email').dirty || loginForm.get('email').touched)">
+                  <small style="color: #EC6240; font-family:Arial" *ngIf=" loginForm.get('password').untouched">  Lütfen geçerli bir e-mail adresi giriniz.</small>
+                </div>
+              </ng-container>
+              </div>
+             
+            </div>
+            <div class="form-group" style="margin-top: 20px">
+              <label
+                class="label"
+                for="floatingPassword"
+                style="color: #343b4a; font-size: 14px; font-family: Arial"
+                >Şifre</label
+              > <br>
+              <div style="position:relative;display: inline-block"> 
+              <input 
+                [type]="hide ? 'password':'text'"
+                formControlName="password"
+                type="password"
+                class="form-control goster"
+                id="floatingPassword"
+              />
+
+              <div class="material-icons" style="position:absolute;top:15px;right:10px; font-family: Arial;opacity: 0.6;" 
+                 (click)="hide = !hide">
+                {{hide ? 'Göster':'Gizle'}}
+              </div>
+            </div>
+              <div>
+                <ng-container class="error-message">
+                  <div class="error-message" for="floatingInput" *ngIf="loginForm.get('password').invalid && (loginForm.get('password').dirty || loginForm.get('password').touched)">
+                    <i class="fas fa-exclamation-circle" style="font-size:1px"></i><small style="color: #EC6240;font-family:Arial" >  Geçersiz e-posta adresi veya şifre</small>
+                  </div>
+                </ng-container>
+             </div>
+            </div>
+            <div class="input-group">
+              <p>
+                <label
+                  class="hatirla"
+                  for="check"
+                  style="font-size: 14px; margin-right: 28px"
+                >
+                  <input
+                    type="checkbox"
+                    id="check"
+                    name="check"
+                    style="accent-color: #077777"
+                  />Beni Hatırla</label
+                >
+      
+                <a style="font-size: 16px; color: #077777; margin-left: 140px"
+                  >Şifremi Unuttum</a
+                >
+              </p>
+            </div>
+            
+            <div class="captcha">
+              <div class="spinner">
+                <label>
+                  <input
+                  formControlName="captcha"
+                    type="checkbox"
+                    id="cek"
+                    onclick="$(this).attr('disabled','disabled');"
+                  />
+                  <span class="checkmark"><span>&nbsp;</span></span>
+                </label>
+                
+              </div>
+              <div class="text">I'm not a robot</div>
+              <div class="logo">
+                <img
+                  src="https://forum.nox.tv/core/index.php?media/9-recaptcha-png/"
+                />
+                <p>reCAPTCHA</p>
+                <small>Privacy - Terms</small>
+              </div>
+            </div>
+            <br />
+            <button [disabled]="loginForm.invalid" class="button" type="submit">Giriş Yap</button>
+            <p id="Destek" style="margin-top:10px;">
+              Sisteme giriş yaparken bir sorun ile karşılaşıyorsanız lütfen
+              <strong style="color: #077777">Migros Destek</strong> ekibiyle iletişime
+              geçiniz.
+            </p>
+          </form>
+
+    </div>
+      </div>
+</div>
